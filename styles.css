@@ -17,7 +17,11 @@ header {
 	display: flex;
 	justify-content: center;
 	gap: 118px;
-	margin-top: 15rem;
+	margin-top: 200px;
+}
+
+.main > img {
+	object-fit: scale-down;
 }
 
 .scarecrow {
@@ -64,11 +68,40 @@ header {
 	align-items: center;
 	white-space: nowrap;
 	margin-top: 0;
+	border-radius: 8px;
 }
 
 @media screen and (max-width: 600px) {
 	.main {
 		flex-direction: column;
 		gap: 77px;
+		margin-top: 64px;
+	}
+
+	.content {
+		align-items: center;
+	}
+
+	.content > h1 {
+		font-size: 42px;
+	}
+
+	header {
+		margin: 20px 24px;
+	}
+
+	.main > img {
+		margin: auto 2.75rem;
+	}
+
+	.content > p {
+		font-size: 18px;
+		margin-bottom: 64px;
+		margin-top: 30px;
+	}
+
+	.content > button {
+		padding: 16px 28px;
+		border-radius: 8px;
 	}
 }
