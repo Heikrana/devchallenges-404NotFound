@@ -80,10 +80,12 @@ header {
 
 	.content {
 		align-items: center;
+		text-align: center;
 	}
 
 	.content > h1 {
 		font-size: 42px;
+		max-width: 380px;
 	}
 
 	header {
