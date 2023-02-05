@@ -18,11 +18,13 @@
 
 ## Table of Contents
 
--   [Screenshot](#overview)
+-   [Screenshot](#screenshot)
 -   [Features](#features)
 -   [Contact](#contact)
 
 <!-- OVERVIEW -->
+
+## Screenshot
 
 ![screenshot](./demo.png)
 
