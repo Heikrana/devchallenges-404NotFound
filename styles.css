@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+body {
+	box-sizing: border-box;
+}
+
+header {
+	font-family: Inconsolata;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+	margin: 40px 77px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	gap: 118px;
+	margin-top: 15rem;
+}
+
+.scarecrow {
+	max-width: 540px;
+	max-height: 420px;
+	width: auto;
+	height: auto;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.content > h1 {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-size: 64px;
+	max-width: 590px;
+	margin: 0 auto;
+	color: #333333;
+}
+
+.content > p {
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	color: #4f4f4f;
+	font-size: 23px;
+	max-width: 380px;
+	margin-bottom: 64px;
+	margin-top: 36px;
+}
+
+.content > button {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-size: 13.5px;
+	padding: 24px 43px;
+	background: #333333;
+	color: white;
+	max-width: 220px;
+	max-height: 65px;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.main {
+		flex-direction: column;
+		gap: 77px;
+	}
+}
